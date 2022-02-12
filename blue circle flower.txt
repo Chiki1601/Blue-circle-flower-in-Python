@@ -1,0 +1,17 @@
+#blue circle flower in Python
+
+import turtle as t
+
+t.speed(0)
+t.shape('classic')
+t.bgcolor('blue')
+t.pencolor('black')
+for i in range(220):
+    t.rt(i)
+    t.circle(150)
+    t.rt(600)
+    t.home()
+    t.circle(60)
+    t.rt(4000000)
+
+t.done()
